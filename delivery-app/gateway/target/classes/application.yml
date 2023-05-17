@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8080
 
 ---
 
@@ -17,7 +17,7 @@ spring:
           predicates:
             - Path=/overseasDeliveries/**, 
         - id: frontend
-          uri: http://localhost:8080
+          uri: http://localhost:8081
           predicates:
             - Path=/**
       globalcors:
