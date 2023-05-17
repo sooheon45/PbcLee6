@@ -71,6 +71,7 @@
                 'lineNum': '',
                 'qty': 0,
                 'name': 0,
+                'orderId': 0,
             }
         },
         methods:{

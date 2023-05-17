@@ -139,7 +139,7 @@ public class OrderSagaSaga {
 
         Factory factory = new Factory();
         /* Logic */
-        factory.set(event.getId());
+        factory.setOrderId(event.getId());
         factoryService.makeProduct(factory);
 
         // Manual Offset Commit //

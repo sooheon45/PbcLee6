@@ -10,4 +10,5 @@ public class Factory {
     private String lineNum;
     private Integer qty;
     private Integer name;
+    private Long orderId;
 }

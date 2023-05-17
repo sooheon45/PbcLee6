@@ -70,6 +70,7 @@
                     { text: "lineNum", value: "lineNum" },
                     { text: "qty", value: "qty" },
                     { text: "name", value: "name" },
+                    { text: "orderId", value: "orderId" },
                 ],
             factory : [],
             newValue: {},
@@ -90,6 +91,7 @@
                 'lineNum': '',
                 'qty': 0,
                 'name': 0,
+                'orderId': 0,
             }
         },
         methods: {

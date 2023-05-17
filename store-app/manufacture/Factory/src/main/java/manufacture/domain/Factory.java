@@ -23,6 +23,8 @@ public class Factory {
 
     private Integer name;
 
+    private Long orderId;
+
     @PostPersist
     public void onPostPersist() {
         ProductManufactured productManufactured = new ProductManufactured(this);

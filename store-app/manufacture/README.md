@@ -32,7 +32,7 @@ mvn spring-boot:run
 ## Test by API
 - Factory
 ```
- http :8088/factories id="id" lineNum="lineNum" qty="qty" name="name" 
+ http :8088/factories id="id" lineNum="lineNum" qty="qty" name="name" orderId="orderId" 
 ```
 
 
