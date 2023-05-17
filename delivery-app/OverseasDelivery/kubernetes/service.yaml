@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: OverseasDelivery
+  labels:
+    app: OverseasDelivery
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: OverseasDelivery
